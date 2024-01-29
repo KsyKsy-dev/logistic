@@ -1,0 +1,6 @@
+.header_in,
+.main_in,
+.footer_in {
+  max-width: 1200px;
+  margin: 0, auto;
+}
