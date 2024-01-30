@@ -16,7 +16,8 @@ button {
   border: none;
   all: initial;
 }
-a. a:hover,
+a,
+a:hover,
 a:active,
 button:hover,
 input:hover {
@@ -32,7 +33,7 @@ main,
 footer {
   width: 100%;
   overflow: hidden;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 h1,
 h2,
