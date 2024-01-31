@@ -55,6 +55,17 @@ footer {
   color: #7eb9fc98;
   cursor: pointer;
 }
+.header_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header__menu--ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
 
 * {
   background: rgb(0 0 0 / 7%);
