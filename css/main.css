@@ -1,4 +1,15 @@
-main {
+#main_in {
+  height: 100%;
+  width: 100%;
+}
+.flex-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.flex-item {
+  border: 1px solid red;
   height: 100px;
-  background-color: blue;
+  flex: 1 0 300px;
 }

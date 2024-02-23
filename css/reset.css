@@ -8,6 +8,7 @@
   text-transform: none;
   list-style: none;
   text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -51,4 +52,41 @@ li,
 span {
   font-weight: 400;
   font-size: 16px;
+}
+:root {
+  --blue: rgba(126 185 252);
+  --red: rgba(238 33 40);
+  --grey: rgba(92 92 92);
+  --grey_light:rgba(127,185,253, 0.1)
+  --white: rgba(255, 255, 255);
+}
+.c-blue {
+  color: var(--blue);
+}
+.c-red {
+  color: var(--red);
+}
+.c-grey {
+  color: var(--grey);
+}
+.c-grey-light {
+  color: var(--grey_light);
+}
+.c-white {
+  color: var(--white);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-grey {
+  background-color: var(--grey);
+}
+.bg-grey-light {
+  background-color: var(--grey_light);
+}
+.bg-white {
+  background-color: var(--white1);
 }
